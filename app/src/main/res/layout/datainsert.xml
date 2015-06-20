@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+   <TextView
+       android:id="@+id/partner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Bienvenido a Tune It!"
+       android:textSize="18sp" />
+
+   <TextView
+       android:id="@+id/textView01"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Por ser tu primera vez en el juego, por favor rellena este formulario"
+       android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/txtLast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Nombre de Usuario" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        android:text="Enviar"
+        android:onClick="register" />
+
+</LinearLayout>

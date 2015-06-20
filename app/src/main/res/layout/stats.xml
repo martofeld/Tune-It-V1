@@ -1,0 +1,249 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#1d1d1d"
+    android:orientation="vertical" >
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/actionbar" >
+
+                <TextView
+                    android:id="@+id/lblUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="UserExample"
+                    android:textSize="32dp" />
+            </RelativeLayout>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/homebtn"
+            android:onClick="gotoMenu"
+            android:contentDescription="Ir a partidas" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/statsbtnp"
+            android:contentDescription="Ir a estadísticas"
+            android:onClick="gotoStats" />
+    </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="287dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listbar"
+                android:text="Desempeño general"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/barr" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Partidas" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/TextView04"
+                    android:layout_alignBottom="@+id/TextView04"       
+                    android:layout_alignParentLeft="true"
+                    android:text="0%" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/TextView04"
+                    android:layout_alignBottom="@+id/TextView04"
+                    android:layout_alignParentRight="true"
+                    android:text="0%" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#00000000" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="de x"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/TextView07"
+                    android:layout_alignBottom="@+id/TextView07"
+                    android:layout_alignParentLeft="true"
+                    android:text="Perdidas"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/TextView07"
+                    android:layout_alignBottom="@+id/TextView07"
+                    android:layout_alignParentRight="true"
+                    android:text="Ganadas"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="282dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listbar"
+                android:text="Desempeño por género"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.5"
+                    android:background="#ff0033"
+                    android:gravity="center"
+                    android:text="Rock\n0%\n0 jugadas"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.5"
+                    android:background="#3300ff"
+                    android:gravity="center"
+                    android:text="HipHop\n0%\n0 jugadas"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+    		<LinearLayout
+                android:layout_width="match_parent"
+                
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.50"
+                    android:background="#ff00ff"
+                    android:gravity="center"
+                    android:text="Pop\n0%\n0 jugadas"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.49"
+                    android:background="#dddd22"
+                    android:gravity="center"
+                    android:text="Jazz\n0%\n0 jugadas"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+        android:layout_width="match_parent"
+        
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView13"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="0.5"
+            android:background="#00ddaa"
+            android:gravity="center"
+            android:text="Soundtrack\n0%\n0 jugadas"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.5"
+            android:background="#22cc22"
+            android:gravity="center"
+            android:text="Otros\n0%\n0 jugadas"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+            </LinearLayout>
+	
+    </ScrollView>
+    
+</LinearLayout>

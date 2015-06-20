@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ctr1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wprock"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/rck_actionbar"
+        android:text="ExampleUser" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical" >
+            
+            
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¿Qué canción era?"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff5555"
+                android:layout_marginTop="00dp"
+                android:text="@string/rta1"
+                android:onClick="check" />
+
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rta2"
+                android:onClick="check" />
+
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rta3"
+                android:onClick="check" />
+
+            <Button
+                android:id="@+id/answer4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rta4"
+                android:onClick="check" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/partner"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffdddd"
+        android:gravity="center"
+        
+            android:layout_weight="2"
+        android:layout_gravity="center"
+        android:text="Juegas con: \nJugador"
+        android:textSize="30dp" />
+
+</LinearLayout>

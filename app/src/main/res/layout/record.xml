@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/background"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/rck_actionbar"
+        android:text="ExampleUser" />
+	<TextView
+        android:id="@+id/youtube"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver en YouTube"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="#ff0000"
+        android:textSize="30dp" />
+	    
+    <TextView
+        android:id="@+id/songname"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Canción"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:onClick="animateRec"
+        android:background="@drawable/anim001"
+        android:src="@drawable/playbtn" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Intérprete"
+        android:textSize="30dp" />
+	
+    <TextView
+        android:id="@+id/partner"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#ffdddd"
+        android:text="Juegas con: \nJugador"
+        android:textSize="30dp" />
+</LinearLayout>

@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#1d1d1d"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent" >
+		
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf8"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 partidas jugadas" />
+
+                <TextView
+                    android:id="@+id/trf7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 partidas ganadas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 partidas jugadas" />
+
+                <TextView
+                    android:id="@+id/trf3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 partidas ganadas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas seguidas" />
+
+                <TextView
+                    android:id="@+id/trf1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="20 ganadas seguidas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf0"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 jugadas en Rock" />
+
+                <TextView
+                    android:id="@+id/trf9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Rock" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf18"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 jugadas en Pop" />
+
+                <TextView
+                    android:id="@+id/trf17"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Pop" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Jazz" />
+
+                <TextView
+                    android:id="@+id/trf5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Jazz" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf14"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 jugadas en HipHop" />
+
+                <TextView
+                    android:id="@+id/trf13"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en HipHop" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf12"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 jugadas en Soundtracks" />
+
+                <TextView
+                    android:id="@+id/trf11"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Soundtracks" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/trf16"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:background="#7500fade"
+                    android:layout_marginRight="4dp"
+                    android:gravity="bottom"
+                    android:text="10 jugadas en Otros" />
+
+                <TextView
+                    android:id="@+id/trf15"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="4dp"
+                    android:background="#7500fade"
+                    android:gravity="bottom"
+                    android:text="10 ganadas en Otros" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TuneIt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="rta1">Respuesta1</string>
+	<string name="rta2">TuneIt</string>
+	<string name="rta3">TuneIt</string>
+	<string name="rta4">TuneIt</string>
+	<string-array
+        name="ex">
+        <item
+            >ex1</item>
+        <item
+            >ex2</item>
+        <item
+            >ex3</item>
+        <item
+            >ex4</item>
+    </string-array>
+	</resources>

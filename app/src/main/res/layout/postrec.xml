@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/background"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rck_actionbar"
+        android:gravity="center_vertical"
+        android:text="ExampleUser"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/ok"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:src="@drawable/okbtn" >
+		
+    </ImageView>
+    <ImageView
+        android:id="@+id/pler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/anim001" >
+		
+    </ImageView>
+
+	<ImageView
+	    android:id="@+id/retry"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.25"
+	    android:src="@drawable/retrybtn" >
+		
+    </ImageView>
+    <TextView
+        android:id="@+id/txtprimerdia"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        
+        android:layout_marginTop="10dp"
+        android:background="#50ff0000"
+        android:text="Juegas con: \nJugador" />
+    
+</LinearLayout>
