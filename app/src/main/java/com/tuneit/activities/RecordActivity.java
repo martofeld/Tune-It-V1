@@ -22,9 +22,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tuneit.R;
-import com.tuneit.classes.Recorder;
-import com.tuneit.classes.Song;
-import com.tuneit.classes.Uploader;
+import com.tuneit.utils.Recorder;
+import com.tuneit.utils.Song;
+import com.tuneit.utils.Uploader;
 
 public class RecordActivity extends ActionBarActivity {
 	private ImageButton btn;

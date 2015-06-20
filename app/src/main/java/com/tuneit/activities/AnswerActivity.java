@@ -14,8 +14,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.tuneit.R;
-import com.tuneit.classes.Downloader;
-import com.tuneit.classes.Player;
+import com.tuneit.utils.Downloader;
+import com.tuneit.utils.Player;
 
 
 public class AnswerActivity extends ActionBarActivity {

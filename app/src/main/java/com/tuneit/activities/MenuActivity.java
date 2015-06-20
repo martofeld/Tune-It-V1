@@ -7,16 +7,14 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.tuneit.R;
-import com.tuneit.classes.Get;
-import com.tuneit.classes.Global;
-import com.tuneit.classes.Partida;
-import com.tuneit.classes.PartidasAdap;
-import com.tuneit.classes.SecondPartidasAdap;
+import com.tuneit.utils.Get;
+import com.tuneit.utils.Global;
+import com.tuneit.utils.Partida;
+import com.tuneit.utils.PartidasAdap;
+import com.tuneit.utils.SecondPartidasAdap;
 
 
 public class MenuActivity extends ActionBarActivity {

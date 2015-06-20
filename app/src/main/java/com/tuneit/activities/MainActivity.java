@@ -14,10 +14,10 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.tuneit.R;
-import com.tuneit.classes.Get;
-import com.tuneit.classes.Global;
-import com.tuneit.classes.Messages;
-import com.tuneit.classes.Post;
+import com.tuneit.utils.Get;
+import com.tuneit.utils.Global;
+import com.tuneit.utils.Messages;
+import com.tuneit.utils.Post;
 
 
 public class MainActivity extends ActionBarActivity {

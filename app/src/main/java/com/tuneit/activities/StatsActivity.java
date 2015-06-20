@@ -1,7 +1,6 @@
 package com.tuneit.activities;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -10,8 +9,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.tuneit.R;
-import com.tuneit.classes.Get;
-import com.tuneit.classes.Stats;
+import com.tuneit.utils.Get;
+import com.tuneit.utils.Stats;
 
 
 public class StatsActivity extends ActionBarActivity {

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.appcompat.R.drawable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,10 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tuneit.R;
-import com.tuneit.classes.Get;
-import com.tuneit.classes.Global;
-import com.tuneit.classes.Post;
-import com.tuneit.classes.Song;
+import com.tuneit.utils.Get;
+import com.tuneit.utils.Global;
+import com.tuneit.utils.Post;
+import com.tuneit.utils.Song;
 
 public class SongSelectionActivity extends ActionBarActivity {
 	

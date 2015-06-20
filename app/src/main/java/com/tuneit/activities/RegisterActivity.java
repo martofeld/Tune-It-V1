@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.tuneit.R;
-import com.tuneit.classes.Messages;
-import com.tuneit.classes.Post;
+import com.tuneit.utils.Messages;
+import com.tuneit.utils.Post;
 
 public class RegisterActivity extends ActionBarActivity {
 	private Messages m = new Messages(RegisterActivity.this);
